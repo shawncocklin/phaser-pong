@@ -8,6 +8,7 @@ const config = {
   height: 600,
   // allows Phaser to choose the render type: HTML canvas or WebGL
   type: Phaser.AUTO,
+  backgroundColor: 0x333333,
   physics: {
     default: 'arcade',
     arcade: {
